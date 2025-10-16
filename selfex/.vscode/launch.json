@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EmpSys",
+            "request": "launch",
+            "mainClass": "empsys.gui.EmpSysMain"
+        },
+        {
+            "type": "java",
+            "name": "EmpSys_V2",
+            "request": "launch",
+            "mainClass": "empsys.gui_v2.EmpSysMainV2"
+        }
+    ]
+}

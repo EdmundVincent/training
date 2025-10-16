@@ -1,0 +1,11 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.checkstyle.configuration": "${workspaceFolder}/google_checks.xml",
+    "java.checkstyle.version": "10.23.1",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": false,
+    "files.autoSave": "onFocusChange", // ファイル保存時に自動整形を有効にする場合
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-21-openjdk-amd64"
+}
