@@ -33,13 +33,13 @@ public class EmpSysUpdateService {
         int result = repository.update(id, updateEntity);
 
         if (result == 0) {
-            // 修改前：return new EmpServiceResult(false, "社員情報の更新に失敗しました。");
-            // 修改后：符合规格书格式
+            // before：return new EmpServiceResult(false, "社員情報の更新に失敗しました。");
+            // after：仕様書のフォーマットに準拠し、IDを含む
             return new EmpServiceResult(false, "社員番号(" + id + ")の情報更新失敗: 更新エラー");
         }
 
-        // 修改前：return new EmpServiceResult(true, "社員情報を更新しました。");
-        // 修改后：符合规格书格式，包含 ID
+        // before：return new EmpServiceResult(true, "社員情報を更新しました。");
+        // after：仕様書のフォーマットに準拠し、IDを含む
         return new EmpServiceResult(true, "社員番号(" + id + ")の情報更新、正常終了");
     }
 }
